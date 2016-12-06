@@ -1,9 +1,9 @@
-(defproject buddy "1.2.0"
+(defproject buddy "1.2.1-SNAPSHOT"
   :description "Security library for Clojure"
   :url "https://github.com/funcool/buddy"
   :license {:name "Apache 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
-  :dependencies [[buddy/buddy-core "1.1.1" :exclusions [org.clojure/clojure]]
+  :dependencies [[buddy/buddy-core "1.1.2-SNAPSHOT" :exclusions [org.clojure/clojure]]
                  [buddy/buddy-auth "1.3.0" :exclusions [org.clojure/clojure]]
                  [buddy/buddy-hashers "1.1.0" :exclusions [org.clojure/clojure]]
                  [buddy/buddy-sign "1.3.0" :exclusions [org.clojure/clojure]]]
